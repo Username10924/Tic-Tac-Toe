@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="tic-tac-toe.js" defer></script>
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <div class="name-container">
+        <div class="form__group field">
+            <input type="text" id="player1" name="player1" class="form__field" placeholder="Player 1 name">
+            <label for="player1" class="form__label">Player 1 name</label>
+        </div>
+        <div class="form__group field">
+            <input type="text" id="player2" name="player2" class="form__field" placeholder="Player 2 name">
+            <label for="player2" class="form__label">Player 2 name</label>
+        </div>
+    </div>
+
+    <div class="game-container">
+        <div id="0"></div>
+        <div id="1"></div>
+        <div id="2"></div>
+        <div id="3"></div>
+        <div id="4"></div>
+        <div id="5"></div>
+        <div id="6"></div>
+        <div id="7"></div>
+        <div id="8"></div>
+    </div>
+
+    <dialog class="modal">
+        <div class="game-end-text"></div>
+        <button class="modal-btn">Reset</button>
+    </dialog>
+</body>
+</html>
